@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- Адаптивность под мобилки-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Счетчик</title>
+    <!-- Подключаем стили-->
+    <link rel="stylesheet" href="counter.css" />
+  </head>
+  <body>
+    <!-- Основное содержание страницы-->
+    <main class="counter">
+      <h1 class="counter__title">Счетчик</h1>
+      <!-- Значение счетчика -->
+      <h2 id="count" class="counter__value" aria-live="polite">0</h2>
+      <!-- Кнопки управления -->
+      <div class="counter__controls">
+        <button id="dec" type="button">-1</button>
+        <button id="inc" type="button">+1</button>
+        <button id="res" type="button">Сброс</button>
+      </div>
+    </main>
+    <!-- Подключаем скрипты-->
+    <script src="counter.js"></script>
+  </body>
+</html>
